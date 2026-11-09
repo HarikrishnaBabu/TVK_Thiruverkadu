@@ -19,7 +19,7 @@ const photos = [
 
 // Replace these sample portrait records with approved local profile photographs and details.
 const personalities = [
-  { name: "Add personality name", role: "Add designation", image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=700&q=85" },
+  { name: "Add personality name", role: "Add designation", image: ""C:\Users\Harikrishna Babu\OneDrive\Pictures\WhatsApp Image 2026-06-20 at 12.53.501 PM.jpg"" },
   { name: "Add personality name", role: "Add designation", image: "https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?auto=format&fit=crop&w=700&q=85" },
   { name: "Add personality name", role: "Add designation", image: "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=700&q=85" },
   { name: "Add personality name", role: "Add designation", image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=700&q=85" }
