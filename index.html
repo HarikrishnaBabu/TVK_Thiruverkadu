@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TVK Digital Gallery — photographs, events and moments from Thiruverkadu Town, 8th Ward." />
+  <meta name="theme-color" content="#e30613" />
+  <title>TVK Digital Gallery | Thiruverkadu – 8th Ward</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="announcement"><span class="pulse"></span> TVK DIGITAL GALLERY <span class="announcement-divider">/</span> THIRUVERKADU · 8TH WARD</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="TVK Digital Gallery home">
+      <span class="brand-mark">TVK</span>
+      <span class="brand-copy"><strong>தமிழக வெற்றிக் கழகம்</strong><small>DIGITAL GALLERY · 8TH WARD</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" id="mainNav">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#gallery" class="nav-link">Gallery</a>
+      <a href="#events" class="nav-link">Events</a>
+      <a href="#people" class="nav-link">Personalities</a>
+      <a href="#about" class="nav-link">About</a>
+    </nav>
+    <a class="header-cta" href="#gallery">Explore photos <span>↗</span></a>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-image"></div>
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <div class="eyebrow light"><span class="eyebrow-line"></span> A VISUAL JOURNEY · 2026</div>
+        <p class="hero-tamil">தமிழக வெற்றிக் கழகம்</p>
+        <h1>Moments that<br><em>bring us together.</em></h1>
+        <p class="hero-description">A collection of events, people and memorable moments from Thiruverkadu Town – 8th Ward.</p>
+        <div class="hero-actions">
+          <a class="button button-red" href="#gallery">Explore gallery <span>↗</span></a>
+          <a class="text-link light-link" href="#events">Discover events <span>→</span></a>
+        </div>
+      </div>
+      <div class="hero-bottom">
+        <span>THIRUVERKADU · TAMIL NADU</span>
+        <span class="hero-scroll">SCROLL TO EXPLORE <b>↓</b></span>
+        <span>01 — 04</span>
+      </div>
+      <div class="hero-index">01<span>/</span>04</div>
+    </section>
+
+    <section class="intro section-wrap">
+      <div class="intro-label"><span class="red-dot"></span> THE ARCHIVE</div>
+      <div class="intro-main">
+        <h2>Every photograph<br>holds a <em>moment.</em></h2>
+        <p>Explore a growing visual archive of gatherings, community activities, celebrations and special occasions. New photographs are added regularly.</p>
+      </div>
+      <div class="intro-stamp"><span>TVK</span><small>THIRUVERKADU<br>8TH WARD</small></div>
+    </section>
+
+    <section class="gallery-section section-wrap" id="gallery">
+      <div class="section-heading">
+        <div><div class="eyebrow"><span class="eyebrow-line"></span> THE COLLECTION</div><h2>Photo <em>gallery</em></h2></div>
+        <p>A closer look at the moments<br>worth remembering.</p>
+      </div>
+      <div class="gallery-toolbar">
+        <div class="filters" id="filters" aria-label="Filter photos">
+          <button class="filter-btn active" data-filter="All">All photos <span>01</span></button>
+          <button class="filter-btn" data-filter="Events">Events</button>
+          <button class="filter-btn" data-filter="Community">Community</button>
+          <button class="filter-btn" data-filter="Celebrations">Celebrations</button>
+        </div>
+        <label class="search-box"><span>⌕</span><input id="searchInput" type="search" placeholder="Search photos..." aria-label="Search photos"></label>
+      </div>
+      <div class="gallery-grid" id="galleryGrid" aria-live="polite"></div>
+      <div class="gallery-footer"><span id="photoCount">Showing photographs</span><span class="gallery-note">A LIVING PHOTO ARCHIVE <b>✳</b></span></div>
+    </section>
+
+    <section class="events-section" id="events">
+      <div class="section-wrap">
+        <div class="section-heading light-heading">
+          <div><div class="eyebrow light"><span class="eyebrow-line"></span> IN FOCUS</div><h2>Stories in <em>frames.</em></h2></div>
+          <p>Browse collections from memorable<br>events and activities.</p>
+        </div>
+        <div class="event-cards" id="eventCards">
+          <a href="#gallery" class="event-card event-card-large" data-event-filter="Events">
+            <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=1200&q=85" alt="People gathered at an event">
+            <span class="event-number">01 / COLLECTION</span><span class="event-title">Public gatherings <b>↗</b></span>
+          </a>
+          <a href="#gallery" class="event-card" data-event-filter="Community">
+            <img src="https://images.unsplash.com/photo-1559027615-cd4628902d4a?auto=format&fit=crop&w=900&q=85" alt="Community volunteers working together">
+            <span class="event-number">02 / COLLECTION</span><span class="event-title">Community moments <b>↗</b></span>
+          </a>
+          <a href="#gallery" class="event-card" data-event-filter="Celebrations">
+            <img src="https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=900&q=85" alt="A celebration with lights">
+            <span class="event-number">03 / COLLECTION</span><span class="event-title">Celebrations <b>↗</b></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="people-section section-wrap" id="people">
+      <div class="section-heading">
+        <div><div class="eyebrow"><span class="eyebrow-line"></span> PEOPLE & PORTRAITS</div><h2>Faces of the <em>community.</em></h2></div>
+        <p>A dedicated space for profiles<br>and important personalities.</p>
+      </div>
+      <div class="people-grid" id="peopleGrid"></div>
+    </section>
+
+    <section class="about-section" id="about">
+      <div class="section-wrap about-inner">
+        <div class="about-left"><div class="eyebrow light"><span class="eyebrow-line"></span> ABOUT THIS ARCHIVE</div><h2>Local moments.<br><em>Shared memories.</em></h2></div>
+        <div class="about-right"><p>This digital gallery is a photo archive for தமிழக வெற்றிக் கழகம் – திருவேற்காடு நகரம், 8வது வார்டு. It brings event photographs and community memories together in one easy-to-explore place.</p><p class="about-tamil">தமிழக வெற்றிக் கழகம்<br>திருவேற்காடு நகரம் – 8வது வார்டு</p><a class="button button-outline" href="#home">Back to top ↑</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#home"><span class="brand-mark">TVK</span><span class="brand-copy"><strong>தமிழக வெற்றிக் கழகம்</strong><small>DIGITAL GALLERY</small></span></a>
+    <span>THIRUVERKADU · 8TH WARD</span>
+    <span>© <span id="year"></span> TVK DIGITAL GALLERY</span>
+  </footer>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Close image viewer">×</button>
+    <button class="lightbox-nav lightbox-prev" id="lightboxPrev" aria-label="Previous image">‹</button>
+    <figure><img id="lightboxImage" src="" alt=""><figcaption><strong id="lightboxTitle"></strong><span id="lightboxMeta"></span></figcaption></figure>
+    <button class="lightbox-nav lightbox-next" id="lightboxNext" aria-label="Next image">›</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
